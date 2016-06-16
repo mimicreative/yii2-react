@@ -1,11 +1,13 @@
 {
-    "name": "haqqi/yii2-react",
+    "name": "mimicreative/yii2-react",
     "description": "ReactJS Asset Bundle for Yii2",
     "license": "MIT License",
     "authors": [
         {
             "name": "MF Haqqi",
-            "email": "me@haqqi.net"
+            "email": "me@haqqi.net",
+            "homepage": "http://haqqi.net",
+            "role": "Creator"
         }
     ],
     "keywords": ["yii2", "react"],
@@ -18,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "haqqi\\react\\": "src/"
+            "mimicreative\\react\\": "src/"
         }
     }
 }

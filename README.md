@@ -9,7 +9,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Add to the require section of your `composer.json` file:
 
 ```
-"haqqi/yii2-react": "~1.0"
+"mimicreative/yii2-react": "~1.0"
 ```
 
 And run in terminal
@@ -25,10 +25,10 @@ Use as the asset bundle in Yii2 View files.
 
 ```
 // use this if you do not need addons
-\haqqi\react\ReactAsset::register($this);
+\mimicreative\react\ReactAsset::register($this);
 
 // use this if you need addons
-\haqqi\react\ReactWithAddonsAsset::register($this);
+\mimicreative\react\ReactWithAddonsAsset::register($this);
 ```
 
 By default, this extension use the minified version. I also include the
@@ -46,13 +46,13 @@ return [
   'components' => [
     'assetManager' => [
       'bundles' => [
-        'haqqi\react\ReactAsset' => [
+        'mimicreative\react\ReactAsset' => [
           'js' => [
             'react.js',
             'react-dom.js'
           ]
         ],
-        'haqqi\react\ReactWithAddonsAsset' => [
+        'mimicreative\react\ReactWithAddonsAsset' => [
           'js' => [
             'react-with-addons.js',
             'react-dom.js'

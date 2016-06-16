@@ -1,6 +1,6 @@
 <?php
 
-namespace haqqi\react;
+namespace mimicreative\react;
 
 class ReactAsset extends \yii\web\AssetBundle {
   public $sourcePath = '@bower/react';
