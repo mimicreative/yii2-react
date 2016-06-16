@@ -1,0 +1,24 @@
+{
+    "name": "haqqi/yii2-react",
+    "description": "ReactJS Asset Bundle for Yii2",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "MF Haqqi",
+            "email": "me@haqqi.net"
+        }
+    ],
+    "keywords": ["yii2", "react"],
+    "type": "yii2-extension",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "yiisoft/yii2": ">=2.0.0",
+        "bower-asset/react": ">=15.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "haqqi\\react\\": "src/"
+        }
+    }
+}
