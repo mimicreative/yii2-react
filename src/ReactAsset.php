@@ -6,8 +6,8 @@ class ReactAsset extends \yii\web\AssetBundle {
   public $sourcePath = '@bower/react';
 
   public $js= [
-    'react.min.js',
-    'react-dom.min.js'
+    YII_ENV == 'dev' ? 'react.js' : 'react.min.js',
+    YII_ENV == 'dev' ? 'react-dom.js' :'react-dom.min.js'
   ];
 
   public $jsOptions = [
